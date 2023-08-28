@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'WhoTube' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for WhoTube
+  pod 'Moya/RxSwift'
+  pod 'SwiftyJSON'
+  pod 'SwiftJWT'
+  pod 'KeychainSwift'
+  pod 'RxRelay'
+  pod 'RxCocoa'
+  pod 'SnapKit'
+  pod 'Kingfisher'
+
+end
