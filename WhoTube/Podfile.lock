@@ -10,6 +10,7 @@ PODS:
   - LoggerAPI (1.9.200):
     - Logging (~> 1.1)
   - Logging (1.4.0)
+  - lottie-ios (3.2.3)
   - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
   - Moya/RxSwift (15.0.0):
@@ -33,6 +34,7 @@ PODS:
 DEPENDENCIES:
   - KeychainSwift
   - Kingfisher
+  - lottie-ios
   - Moya/RxSwift
   - RxCocoa
   - RxRelay
@@ -51,6 +53,7 @@ SPEC REPOS:
     - KituraContracts
     - LoggerAPI
     - Logging
+    - lottie-ios
     - Moya
     - RxCocoa
     - RxRelay
@@ -69,6 +72,7 @@ SPEC CHECKSUMS:
   KituraContracts: e845e60dc8627ad0a76fa55ef20a45451d8f830b
   LoggerAPI: ad9c4a6f1e32f518fdb43a1347ac14d765ab5e3d
   Logging: beeb016c9c80cf77042d62e83495816847ef108b
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
   RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
@@ -77,6 +81,6 @@ SPEC CHECKSUMS:
   SwiftJWT: 88c412708f58c169d431d344c87bc79a87c830ae
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: eadf1c0914edea9b6d0c930d766366fd186e5845
+PODFILE CHECKSUM: d76b8f519d79048b9af74741bad5ad840bd79d84
 
 COCOAPODS: 1.11.2

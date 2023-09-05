@@ -6,14 +6,31 @@
 //
 
 import UIKit
+import Kingfisher
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //Kingfisher
+        let cache = ImageCache.default
+        // Limit memory cache size to 100 MB.
+        cache.memoryStorage.config.totalCostLimit = 100 * 1024 * 1024
+        // Limit disk cache size to 1 GB.
+        cache.diskStorage.config.sizeLimit = 1000 * 1024 * 1024
+        
+        if #available(iOS 13, *) {
+            //Do nothing
+        } else {
+            window = UIWindow(frame: UIScreen.main.bounds)
+            let navigationController = UINavigationController(rootViewController: PlayListViewController())
+            window?.rootViewController = navigationController
+            window?.makeKeyAndVisible()
+        }
+        
         return true
     }
 

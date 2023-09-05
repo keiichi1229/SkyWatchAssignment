@@ -1,0 +1,12 @@
+//
+//  AppConfig.xcconfig
+//  WhoTube
+//
+//  Created by Raymondting on 2023/8/30.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+API_KEY = AIzaSyAOrQCaNeovzN3Q0wNYT4y3VV9K65pB4-E
+PLAYLIST_ID = PL0xr9wSaqD03CwjV4rEX5c0B7XWPFSfjT
+CHANNEL_ID = UC9WMsQHOevJPa7tAIRAri7g
