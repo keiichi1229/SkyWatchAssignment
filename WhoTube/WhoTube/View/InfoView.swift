@@ -10,8 +10,9 @@ import UIKit
 class InfoView: UIView {
     lazy var ownerImgView: UIImageView = {
         let ownerImg = UIImageView()
-        ownerImg.layer.cornerRadius = ownerImg.frame.size.width / 2
         ownerImg.clipsToBounds = true
+        ownerImg.layer.borderWidth = 1.0
+        ownerImg.layer.borderColor = UIColor.red.cgColor
         return ownerImg
     }()
     
@@ -36,6 +37,11 @@ class InfoView: UIView {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        ownerImgView.layer.cornerRadius = ownerImgView.frame.size.width / 2
     }
     
     func setData(ownerImageUrl: String,

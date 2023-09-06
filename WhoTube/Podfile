@@ -16,5 +16,7 @@ target 'WhoTube' do
   pod 'Kingfisher'
   pod 'lottie-ios'
   pod 'youtube-ios-player-helper'
+  pod 'ActiveLabel'
+  pod 'CryptoSwift'
 
 end

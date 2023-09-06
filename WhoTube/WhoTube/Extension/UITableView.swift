@@ -22,8 +22,24 @@ extension UITableView {
                 let y = contentOffset.y + self.contentInset.top
                 let threshold = max(0.0, self.contentSize.height - visibleHeight) // the gap of trigger
 
-                return y > threshold ? Observable.just(()) : Observable.empty()
+                return (y > threshold || y == threshold) ? Observable.just(()) : Observable.empty()
             }
+    }
+}
+
+extension Reactive where Base: UITableView {
+    var noDataLabelVisible: Binder<Bool> {
+        return Binder(self.base) { tableView, isEmpty in
+            if isEmpty {
+                let label = UILabel()
+                label.text = "No Data"
+                label.textAlignment = .center
+                label.font = UIFont.systemFont(ofSize: 20)
+                tableView.backgroundView = label
+            } else {
+                tableView.backgroundView = nil
+            }
+        }
     }
 }
 

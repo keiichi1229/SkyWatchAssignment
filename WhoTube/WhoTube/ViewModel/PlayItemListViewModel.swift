@@ -15,7 +15,7 @@ class PlayItemListViewModel: BaseViewModel {
     
     var playItemListData: PlayItemList?
     var ChannelsListData: ChannelsList?
-    let playItemList = BehaviorRelay<[PlayItem]>(value: [])
+    let playItemList = BehaviorRelay<[PlayItem]>(value: AppCache.shared.retrieve(forType: .playItemList) ?? [])
     let title = BehaviorRelay<String>(value: "")
     
     func getInitData() {
@@ -38,8 +38,15 @@ class PlayItemListViewModel: BaseViewModel {
                     self?.playItemList.accept(playListData.items)
                     self?.title.accept(playListData.items.first?.snippet.channelTitle ?? "")
                     
+                    AppCache.shared.update(data: playListData.items, forType: .playItemList)
+                case (.error(let err), _),
+                     (_, .error(let err)):
+                    self?.presentAlert.accept(("", err.msg))
+                    #if DEBUG
+                    print(err.msg)
+                    #endif
                 default:
-                    //error handle
+                    //Do nothing
                     break
                 }
         }).disposed(by: disposeBag)
@@ -72,6 +79,9 @@ class PlayItemListViewModel: BaseViewModel {
                 // update next page
                 self?.playItemListData?.updateNextPageToken(token: playListData.nextPageToken)
                 
+            }, onFailure: { [weak self] err in
+                self?.manageActivityIndicator.accept(false)
+                self?.presentAlert.accept(("", err.msg))
             }).disposed(by: disposeBag)
     }
 }

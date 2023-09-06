@@ -7,6 +7,7 @@
 
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
-API_KEY = AIzaSyAOrQCaNeovzN3Q0wNYT4y3VV9K65pB4-E
+//API_KEY = AIzaSyAOrQCaNeovzN3Q0wNYT4y3VV9K65pB4-E
+API_KEY = 0876afa6661f64a49190763c1c9adb6105265d37b052db67c7063f61a3e61edeb7fab2462fe25a647c70cfbe3ce06ced
 PLAYLIST_ID = PL0xr9wSaqD03CwjV4rEX5c0B7XWPFSfjT
 CHANNEL_ID = UC9WMsQHOevJPa7tAIRAri7g

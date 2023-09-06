@@ -29,7 +29,8 @@ public class ApiProvider {
                     print("\(JSON(try res.mapJSON()))")
                     print("###############################")
                     #endif
-                    return Single.error(MoyaError.jsonMapping(res))
+                    let errorMessage = MoyaError.jsonMapping(res).localizedDescription
+                    return Single.error(NSError(domain: "", code: 0, userInfo: [NSLocalizedDescriptionKey: errorMessage]))
                 }
             }
             .filterSuccessfulStatusCodes()

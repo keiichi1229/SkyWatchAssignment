@@ -1,8 +1,10 @@
 PODS:
+  - ActiveLabel (1.1.0)
   - Alamofire (5.4.4)
   - BlueCryptor (1.0.32)
   - BlueECC (1.2.5)
   - BlueRSA (1.0.200)
+  - CryptoSwift (1.4.2)
   - KeychainSwift (19.0.0)
   - Kingfisher (7.1.1)
   - KituraContracts (1.2.1):
@@ -30,8 +32,11 @@ PODS:
     - KituraContracts (~> 1.2)
     - LoggerAPI (~> 1.7)
   - SwiftyJSON (5.0.1)
+  - youtube-ios-player-helper (1.0.4)
 
 DEPENDENCIES:
+  - ActiveLabel
+  - CryptoSwift
   - KeychainSwift
   - Kingfisher
   - lottie-ios
@@ -41,13 +46,16 @@ DEPENDENCIES:
   - SnapKit
   - SwiftJWT
   - SwiftyJSON
+  - youtube-ios-player-helper
 
 SPEC REPOS:
   trunk:
+    - ActiveLabel
     - Alamofire
     - BlueCryptor
     - BlueECC
     - BlueRSA
+    - CryptoSwift
     - KeychainSwift
     - Kingfisher
     - KituraContracts
@@ -61,12 +69,15 @@ SPEC REPOS:
     - SnapKit
     - SwiftJWT
     - SwiftyJSON
+    - youtube-ios-player-helper
 
 SPEC CHECKSUMS:
+  ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   BlueCryptor: b0aee3d9b8f367b49b30de11cda90e1735571c24
   BlueECC: 0d18e93347d3ec6d41416de21c1ffa4d4cd3c2cc
   BlueRSA: dfeef51db96bcc4edec654956c1581adbda4e6a3
+  CryptoSwift: a532e74ed010f8c95f611d00b8bbae42e9fe7c17
   KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
   Kingfisher: f738f9c4a3415823b8e2985d10aa2d6a9f37bc4d
   KituraContracts: e845e60dc8627ad0a76fa55ef20a45451d8f830b
@@ -80,7 +91,8 @@ SPEC CHECKSUMS:
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftJWT: 88c412708f58c169d431d344c87bc79a87c830ae
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  youtube-ios-player-helper: e9b97535e816db3152179d84d999bc1807ecd689
 
-PODFILE CHECKSUM: d76b8f519d79048b9af74741bad5ad840bd79d84
+PODFILE CHECKSUM: 105496a050bbac16a6310241ed2d0ecc5c248ccd
 
 COCOAPODS: 1.11.2
