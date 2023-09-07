@@ -39,20 +39,6 @@ class BaseViewController: UIViewController {
         return view
     }()
     
-    internal lazy var maskLayer: CAGradientLayer = {
-        let gradient = CAGradientLayer()
-        gradient.startPoint = CGPoint(x: 0, y: 0.0)
-        gradient.endPoint = CGPoint(x: 0, y: 1)
-        let whiteColor = UIColor.white
-        gradient.colors = [whiteColor.withAlphaComponent(1).cgColor,
-                           whiteColor.withAlphaComponent(1).cgColor,
-                           whiteColor.withAlphaComponent(1).cgColor]
-        gradient.locations = [0, 0.3, 1]
-        gradient.frame = view.bounds
-        view.layer.mask = gradient
-        return gradient
-    }()
-    
     internal var manageActivityIndicator = PublishRelay<Bool>()
     
     internal func initSubviews() {}

@@ -86,6 +86,18 @@ class PlayVideoViewController: BaseViewController {
                 self?.handleOrientationChange()
             }).disposed(by: disposeBag)
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        AppDelegate.orientationLock = UIInterfaceOrientationMask.all
+        UIViewController.attemptRotationToDeviceOrientation()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        AppDelegate.orientationLock = UIInterfaceOrientationMask.portrait
+        UIViewController.attemptRotationToDeviceOrientation()
+    }
 
     func handleOrientationChange() {
         let orientation: UIInterfaceOrientation
