@@ -7,7 +7,20 @@
 		<key>WhoTube.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>27</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>648C10C52AA9A0E900859FE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>64E0A5DB2A9C92FC00E65DC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

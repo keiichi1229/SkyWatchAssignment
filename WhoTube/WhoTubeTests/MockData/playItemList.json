@@ -1,0 +1,58 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "95KF-rMQ3NxegqjPcut0dA6lZJg",
+  "nextPageToken": "EAAaHlBUOkNBRWlFREk0T1VZMFFUUTJSRVl3UVRNd1JESQ",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "GgBMMVxa2OriE3kEGLfNtH10EYc",
+      "id": "VVUwQy13MFlqR3BxRFhHQjhJSGI2NjJBLkZ5OGdzamctZ2hZ",
+      "snippet": {
+        "publishedAt": "2023-08-30T16:47:07Z",
+        "channelId": "UC0C-w0YjGpqDXGB8IHb662A",
+        "title": "What a moment bringing out Macklemore in Seattle for a home crowd. Thank you Ben & your city rocks x",
+        "description": "Subscribe to Ed's channel: http://bit.ly/SubscribeToEdSheeran\n\nFollow Ed on...\nInstagram: http://instagram.com/teddysphotos\nTikTok: https://www.tiktok.com/@edsheeran\nFacebook: http://www.facebook.com/EdSheeranMusic\nTwitter: http://twitter.com/edsheeran\nDiscord: http://discord.gg/edsheeran\nOfficial Website: http://edsheeran.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Fy8gsjg-ghY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Fy8gsjg-ghY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Fy8gsjg-ghY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Fy8gsjg-ghY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Fy8gsjg-ghY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Ed Sheeran",
+        "playlistId": "UU0C-w0YjGpqDXGB8IHb662A",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Fy8gsjg-ghY"
+        },
+        "videoOwnerChannelTitle": "Ed Sheeran",
+        "videoOwnerChannelId": "UC0C-w0YjGpqDXGB8IHb662A"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 398,
+    "resultsPerPage": 1
+  }
+}

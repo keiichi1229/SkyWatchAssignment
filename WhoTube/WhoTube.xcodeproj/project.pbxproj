@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07063328ECBDCA413DC98AD3 /* Pods_WhoTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E279537EAE40C7ADFA624C /* Pods_WhoTube.framework */; };
+		644FB57F2AA9C6BE0057010E /* PlayVideoViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644FB57E2AA9C6BE0057010E /* PlayVideoViewModelTests.swift */; };
+		648C10D12AA9A25100859FE2 /* PlayItemListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648C10D02AA9A25100859FE2 /* PlayItemListViewModelTests.swift */; };
+		648C10D42AA9A39000859FE2 /* MockApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648C10D32AA9A39000859FE2 /* MockApiProvider.swift */; };
 		648C254C2AA6A03D00D5C45D /* Loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 648C254B2AA6A03D00D5C45D /* Loading.json */; };
 		648C254E2AA6A29600D5C45D /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648C254D2AA6A29600D5C45D /* UIViewController.swift */; };
 		648C25502AA6A3CB00D5C45D /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648C254F2AA6A3CB00D5C45D /* UITableView.swift */; };
@@ -25,6 +27,9 @@
 		648EE6D32AA75EEF00E6CEA4 /* CommentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EE6D22AA75EEF00E6CEA4 /* CommentList.swift */; };
 		648EE6D52AA7633000E6CEA4 /* GetCommentsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EE6D42AA7633000E6CEA4 /* GetCommentsResponse.swift */; };
 		648EE6D72AA7755700E6CEA4 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648EE6D62AA7755700E6CEA4 /* CommentCell.swift */; };
+		648F422C2AAA0346005503F9 /* video.json in Resources */ = {isa = PBXBuildFile; fileRef = 648F422B2AAA0345005503F9 /* video.json */; };
+		648F422E2AAA0A9B005503F9 /* playItemList.json in Resources */ = {isa = PBXBuildFile; fileRef = 648F422D2AAA0A9B005503F9 /* playItemList.json */; };
+		648F42302AAA0B7E005503F9 /* channel.json in Resources */ = {isa = PBXBuildFile; fileRef = 648F422F2AAA0B7E005503F9 /* channel.json */; };
 		649170B72A9F31C300F8E137 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649170B62A9F31C300F8E137 /* AppConfig.swift */; };
 		64935A812AA2089700156B5C /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64935A802AA2089700156B5C /* UIApplication.swift */; };
 		6494CF912AA6FEF500D91D9D /* PlayVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6494CF902AA6FEF500D91D9D /* PlayVideoViewController.swift */; };
@@ -47,10 +52,27 @@
 		64E0A5E42A9C92FC00E65DC3 /* PlayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E0A5E32A9C92FC00E65DC3 /* PlayListViewController.swift */; };
 		64E0A5E92A9C92FF00E65DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E0A5E82A9C92FF00E65DC3 /* Assets.xcassets */; };
 		64E0A5EC2A9C92FF00E65DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E0A5EA2A9C92FF00E65DC3 /* LaunchScreen.storyboard */; };
+		8515F360B31B53BCAFED138E /* Pods_WhoTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5105690C7E6A438E671442 /* Pods_WhoTube.framework */; };
+		CD563E55D7B1F6715CCB0B33 /* libPods-WhoTubeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6628C1A8D6F9B58E0B1D37E /* libPods-WhoTubeTests.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		648C10CA2AA9A0E900859FE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64E0A5D42A9C92FC00E65DC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64E0A5DB2A9C92FC00E65DC3;
+			remoteInfo = WhoTube;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		38DDBE35903D963BD3352E54 /* Pods-WhoTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoTube.release.xcconfig"; path = "Target Support Files/Pods-WhoTube/Pods-WhoTube.release.xcconfig"; sourceTree = "<group>"; };
+		4561D7F67519669E81FEFE7E /* Pods-WhoTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoTube.debug.xcconfig"; path = "Target Support Files/Pods-WhoTube/Pods-WhoTube.debug.xcconfig"; sourceTree = "<group>"; };
+		644FB57E2AA9C6BE0057010E /* PlayVideoViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideoViewModelTests.swift; sourceTree = "<group>"; };
+		6476D40C2AAA490E00845B7D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		648C10C62AA9A0E900859FE2 /* WhoTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhoTubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		648C10D02AA9A25100859FE2 /* PlayItemListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayItemListViewModelTests.swift; sourceTree = "<group>"; };
+		648C10D32AA9A39000859FE2 /* MockApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApiProvider.swift; sourceTree = "<group>"; };
 		648C254B2AA6A03D00D5C45D /* Loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loading.json; sourceTree = "<group>"; };
 		648C254D2AA6A29600D5C45D /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		648C254F2AA6A3CB00D5C45D /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
@@ -68,6 +90,9 @@
 		648EE6D22AA75EEF00E6CEA4 /* CommentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentList.swift; sourceTree = "<group>"; };
 		648EE6D42AA7633000E6CEA4 /* GetCommentsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommentsResponse.swift; sourceTree = "<group>"; };
 		648EE6D62AA7755700E6CEA4 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		648F422B2AAA0345005503F9 /* video.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = video.json; sourceTree = "<group>"; };
+		648F422D2AAA0A9B005503F9 /* playItemList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = playItemList.json; sourceTree = "<group>"; };
+		648F422F2AAA0B7E005503F9 /* channel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = channel.json; sourceTree = "<group>"; };
 		649170B62A9F31C300F8E137 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		649170B82A9F32B500F8E137 /* AppConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppConfig.xcconfig; sourceTree = "<group>"; };
 		64935A802AA2089700156B5C /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
@@ -93,16 +118,27 @@
 		64E0A5E82A9C92FF00E65DC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64E0A5EB2A9C92FF00E65DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64E0A5ED2A9C92FF00E65DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5E279537EAE40C7ADFA624C /* Pods_WhoTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhoTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5400877760B52FA5DABF559 /* Pods-WhoTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoTube.debug.xcconfig"; path = "Target Support Files/Pods-WhoTube/Pods-WhoTube.debug.xcconfig"; sourceTree = "<group>"; };
+		772F2DEFB09AEE7BB9A5205F /* Pods-WhoTubeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoTubeTests.debug.xcconfig"; path = "Target Support Files/Pods-WhoTubeTests/Pods-WhoTubeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CE4DD98F507B7BB55FCD0C2 /* Pods-WhoTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoTube.release.xcconfig"; path = "Target Support Files/Pods-WhoTube/Pods-WhoTube.release.xcconfig"; sourceTree = "<group>"; };
+		9B5105690C7E6A438E671442 /* Pods_WhoTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhoTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6628C1A8D6F9B58E0B1D37E /* libPods-WhoTubeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhoTubeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCCFD52530292A169012E1EE /* Pods-WhoTubeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoTubeTests.release.xcconfig"; path = "Target Support Files/Pods-WhoTubeTests/Pods-WhoTubeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		648C10C32AA9A0E900859FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD563E55D7B1F6715CCB0B33 /* libPods-WhoTubeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64E0A5D92A9C92FC00E65DC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07063328ECBDCA413DC98AD3 /* Pods_WhoTube.framework in Frameworks */,
+				8515F360B31B53BCAFED138E /* Pods_WhoTube.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,10 +148,41 @@
 		21EC7848D7369E25AA4C4310 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C5400877760B52FA5DABF559 /* Pods-WhoTube.debug.xcconfig */,
-				38DDBE35903D963BD3352E54 /* Pods-WhoTube.release.xcconfig */,
+				4561D7F67519669E81FEFE7E /* Pods-WhoTube.debug.xcconfig */,
+				8CE4DD98F507B7BB55FCD0C2 /* Pods-WhoTube.release.xcconfig */,
+				772F2DEFB09AEE7BB9A5205F /* Pods-WhoTubeTests.debug.xcconfig */,
+				CCCFD52530292A169012E1EE /* Pods-WhoTubeTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		648C10C72AA9A0E900859FE2 /* WhoTubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				648C10D22AA9A34200859FE2 /* MockData */,
+				648C10CF2AA9A22300859FE2 /* ViewModel */,
+				648C10D32AA9A39000859FE2 /* MockApiProvider.swift */,
+			);
+			path = WhoTubeTests;
+			sourceTree = "<group>";
+		};
+		648C10CF2AA9A22300859FE2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				648C10D02AA9A25100859FE2 /* PlayItemListViewModelTests.swift */,
+				644FB57E2AA9C6BE0057010E /* PlayVideoViewModelTests.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		648C10D22AA9A34200859FE2 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				648F422F2AAA0B7E005503F9 /* channel.json */,
+				648F422D2AAA0A9B005503F9 /* playItemList.json */,
+				648F422B2AAA0345005503F9 /* video.json */,
+			);
+			path = MockData;
 			sourceTree = "<group>";
 		};
 		648DFFD12AA5AB6B00D8A339 /* View */ = {
@@ -229,9 +296,10 @@
 			isa = PBXGroup;
 			children = (
 				64E0A5DE2A9C92FC00E65DC3 /* WhoTube */,
+				648C10C72AA9A0E900859FE2 /* WhoTubeTests */,
 				64E0A5DD2A9C92FC00E65DC3 /* Products */,
 				21EC7848D7369E25AA4C4310 /* Pods */,
-				F80AFCCB9DCA36B1EF860555 /* Frameworks */,
+				9952EA793719A32F6B062D9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -239,6 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				64E0A5DC2A9C92FC00E65DC3 /* WhoTube.app */,
+				648C10C62AA9A0E900859FE2 /* WhoTubeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -264,10 +333,12 @@
 			path = WhoTube;
 			sourceTree = "<group>";
 		};
-		F80AFCCB9DCA36B1EF860555 /* Frameworks */ = {
+		9952EA793719A32F6B062D9F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A5E279537EAE40C7ADFA624C /* Pods_WhoTube.framework */,
+				6476D40C2AAA490E00845B7D /* XCTest.framework */,
+				9B5105690C7E6A438E671442 /* Pods_WhoTube.framework */,
+				B6628C1A8D6F9B58E0B1D37E /* libPods-WhoTubeTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -275,15 +346,35 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		648C10C52AA9A0E900859FE2 /* WhoTubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648C10CE2AA9A0E900859FE2 /* Build configuration list for PBXNativeTarget "WhoTubeTests" */;
+			buildPhases = (
+				1D2D19838CEE48594AA5AED1 /* [CP] Check Pods Manifest.lock */,
+				648C10C22AA9A0E900859FE2 /* Sources */,
+				648C10C32AA9A0E900859FE2 /* Frameworks */,
+				648C10C42AA9A0E900859FE2 /* Resources */,
+				87CBB5E95CEACFBD98E6C42D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				648C10CB2AA9A0E900859FE2 /* PBXTargetDependency */,
+			);
+			name = WhoTubeTests;
+			productName = WhoTubeTests;
+			productReference = 648C10C62AA9A0E900859FE2 /* WhoTubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		64E0A5DB2A9C92FC00E65DC3 /* WhoTube */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64E0A5F02A9C92FF00E65DC3 /* Build configuration list for PBXNativeTarget "WhoTube" */;
 			buildPhases = (
-				66C6CC983C736E6FDD9BBAA1 /* [CP] Check Pods Manifest.lock */,
+				BE21791FC0A556D94F5DA458 /* [CP] Check Pods Manifest.lock */,
 				64E0A5D82A9C92FC00E65DC3 /* Sources */,
 				64E0A5D92A9C92FC00E65DC3 /* Frameworks */,
 				64E0A5DA2A9C92FC00E65DC3 /* Resources */,
-				0A1FCA465B3CB0B4F968293E /* [CP] Embed Pods Frameworks */,
+				B09FAC9C029E05775C99A4E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -304,6 +395,10 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					648C10C52AA9A0E900859FE2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 64E0A5DB2A9C92FC00E65DC3;
+					};
 					64E0A5DB2A9C92FC00E65DC3 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -323,11 +418,22 @@
 			projectRoot = "";
 			targets = (
 				64E0A5DB2A9C92FC00E65DC3 /* WhoTube */,
+				648C10C52AA9A0E900859FE2 /* WhoTubeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		648C10C42AA9A0E900859FE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648F422E2AAA0A9B005503F9 /* playItemList.json in Resources */,
+				648F422C2AAA0346005503F9 /* video.json in Resources */,
+				648F42302AAA0B7E005503F9 /* channel.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64E0A5DA2A9C92FC00E65DC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,7 +447,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A1FCA465B3CB0B4F968293E /* [CP] Embed Pods Frameworks */ = {
+		1D2D19838CEE48594AA5AED1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhoTubeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87CBB5E95CEACFBD98E6C42D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhoTubeTests/Pods-WhoTubeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhoTubeTests/Pods-WhoTubeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhoTubeTests/Pods-WhoTubeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B09FAC9C029E05775C99A4E5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -358,7 +503,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhoTube/Pods-WhoTube-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		66C6CC983C736E6FDD9BBAA1 /* [CP] Check Pods Manifest.lock */ = {
+		BE21791FC0A556D94F5DA458 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -383,6 +528,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		648C10C22AA9A0E900859FE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644FB57F2AA9C6BE0057010E /* PlayVideoViewModelTests.swift in Sources */,
+				648C10D42AA9A39000859FE2 /* MockApiProvider.swift in Sources */,
+				648C10D12AA9A25100859FE2 /* PlayItemListViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64E0A5D82A9C92FC00E65DC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -428,6 +583,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		648C10CB2AA9A0E900859FE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64E0A5DB2A9C92FC00E65DC3 /* WhoTube */;
+			targetProxy = 648C10CA2AA9A0E900859FE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		64E0A5EA2A9C92FF00E65DC3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -440,6 +603,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		648C10CC2AA9A0E900859FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 772F2DEFB09AEE7BB9A5205F /* Pods-WhoTubeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WhoTubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhoTube.app/WhoTube";
+			};
+			name = Debug;
+		};
+		648C10CD2AA9A0E900859FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCCFD52530292A169012E1EE /* Pods-WhoTubeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WhoTubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhoTube.app/WhoTube";
+			};
+			name = Release;
+		};
 		64E0A5EE2A9C92FF00E65DC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 649170B82A9F32B500F8E137 /* AppConfig.xcconfig */;
@@ -560,12 +769,13 @@
 		};
 		64E0A5F12A9C92FF00E65DC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5400877760B52FA5DABF559 /* Pods-WhoTube.debug.xcconfig */;
+			baseConfigurationReference = 4561D7F67519669E81FEFE7E /* Pods-WhoTube.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28VQ4FLVLV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WhoTube/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -588,12 +798,13 @@
 		};
 		64E0A5F22A9C92FF00E65DC3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38DDBE35903D963BD3352E54 /* Pods-WhoTube.release.xcconfig */;
+			baseConfigurationReference = 8CE4DD98F507B7BB55FCD0C2 /* Pods-WhoTube.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 28VQ4FLVLV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WhoTube/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -617,6 +828,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		648C10CE2AA9A0E900859FE2 /* Build configuration list for PBXNativeTarget "WhoTubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648C10CC2AA9A0E900859FE2 /* Debug */,
+				648C10CD2AA9A0E900859FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		64E0A5D72A9C92FC00E65DC3 /* Build configuration list for PBXProject "WhoTube" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

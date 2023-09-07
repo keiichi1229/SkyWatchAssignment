@@ -18,12 +18,16 @@ PODS:
   - Moya/RxSwift (15.0.0):
     - Moya/Core
     - RxSwift (~> 6.0)
+  - RxBlocking (6.2.0):
+    - RxSwift (= 6.2.0)
   - RxCocoa (6.2.0):
     - RxRelay (= 6.2.0)
     - RxSwift (= 6.2.0)
   - RxRelay (6.2.0):
     - RxSwift (= 6.2.0)
   - RxSwift (6.2.0)
+  - RxTest (6.2.0):
+    - RxSwift (= 6.2.0)
   - SnapKit (5.0.1)
   - SwiftJWT (3.6.200):
     - BlueCryptor (~> 1.0)
@@ -41,8 +45,10 @@ DEPENDENCIES:
   - Kingfisher
   - lottie-ios
   - Moya/RxSwift
+  - RxBlocking
   - RxCocoa
   - RxRelay
+  - RxTest
   - SnapKit
   - SwiftJWT
   - SwiftyJSON
@@ -63,9 +69,11 @@ SPEC REPOS:
     - Logging
     - lottie-ios
     - Moya
+    - RxBlocking
     - RxCocoa
     - RxRelay
     - RxSwift
+    - RxTest
     - SnapKit
     - SwiftJWT
     - SwiftyJSON
@@ -85,14 +93,16 @@ SPEC CHECKSUMS:
   Logging: beeb016c9c80cf77042d62e83495816847ef108b
   lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  RxBlocking: 0b29f7d2079109a8de49c411381bed7c33ef1eeb
   RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
   RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
   RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  RxTest: 0c692fa672b694373ba86d2b00033595297a2831
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftJWT: 88c412708f58c169d431d344c87bc79a87c830ae
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   youtube-ios-player-helper: e9b97535e816db3152179d84d999bc1807ecd689
 
-PODFILE CHECKSUM: 105496a050bbac16a6310241ed2d0ecc5c248ccd
+PODFILE CHECKSUM: 3c9cb361afeee410864dbb14aa7396b35a10c4fa
 
 COCOAPODS: 1.11.2

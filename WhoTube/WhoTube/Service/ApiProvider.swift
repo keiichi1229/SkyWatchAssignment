@@ -13,7 +13,7 @@ import SwiftyJSON
 public class ApiProvider {
     
     public static let shared = ApiProvider()
-    private init() {}
+    internal init() {}
     
     private var provider = MoyaProvider<MultiTarget>()
     

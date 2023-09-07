@@ -22,6 +22,7 @@ class PlayVideoViewModel: BaseViewModel {
     let title = BehaviorRelay<String>(value: "")
     let playVideoItem = BehaviorRelay<PlayItem?>(value: nil)
     let videoDescription = BehaviorRelay<String>(value: "")
+    var apiProvider = ApiProvider.shared
     
     init(withPlayVideoItem playItem: PlayItem) {
         title.accept(playItem.snippet.title)
@@ -29,7 +30,7 @@ class PlayVideoViewModel: BaseViewModel {
     }
     
     func getVideoInfo(videoId: String) {
-        ApiProvider.shared.request(YoutubeDataService.getVideoInfo(videoId: videoId))
+        apiProvider.request(YoutubeDataService.getVideoInfo(videoId: videoId))
             .subscribe(onSuccess: { [weak self] res in
                 let videoItem = GetVideoInfoResponse(JSON(res))
                 self?.videoDescription.accept(videoItem.data.items.first?.snippet.localized.description ?? "")

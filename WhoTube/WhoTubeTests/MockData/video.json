@@ -1,0 +1,61 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "mQ9zUL93Lg7iwxG3k2Bb5pAtAQM",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "UgJHUgYxnXfQZ6bfDyTg6s4dto0",
+      "id": "k3PvszZ55Ok",
+      "snippet": {
+        "publishedAt": "2016-12-10T06:48:56Z",
+        "channelId": "UC9WMsQHOevJPa7tAIRAri7g",
+        "title": "【シャドウバース】登録者の数だけパック開けますwwwww【ゆっくり実況プレイ】",
+        "description": "王のお触れ。\n骸の王「登録者10人につき1パック開けたら、骸の王効果で年内7万達成出来るアル。」\n\nShadowverse（シャドウバース）の骸の王デッキでバトルしてきました！\n\n◎twitter◎\n@glassmanbo2\n動画の更新とか日常つぶやいてます！フォローして下さい！\n\n◎生声チャンネル◎\nhttps://www.youtube.com/channel/UCfZoH-jHVsEDb7_hFevyKkg\nペルシコスとあおじろがお互い好きなゲーム生声で投稿してます。\nペルシコス(Bloodborne・シャドーバース・BF1など)\nあおじろ(CoD：IW・BF1など)\n\n\n\nデッキコード(ドバスポ)\nhttps://shadowverse-portal.com/deck/1.5.63E_G.63E_G.63E_G.63HPo.63HPo.63HPo.63FiQ.63FiQ.63FiQ.63HfQ.63HfQ.63K5g.63K5g.5_QqY.5_QqY.5_QqY.63Ezi.63Ezi.63Ezi.675ZG.675ZG.675ZG.63Kb4.63Kb4.673s2.673s2.678UI.678UI.5_TGo.5_TGo.63Kaw.63Kaw.63Kaw.63MII.63MII.677_2.677_2.63MIS.63MIS.63MIS\n\n◎キャンペーン内容◎\nこの動画編集中の登録者67832人から、12月29日のRise of Bahamut発売までの間に増えたチャンネル登録者10人につき1パックパックを開封します。(登録者上限なし)\nルピは使わずに、課金クリスタルのみで開封します。\n引越し云々で貯金ｽｯｶﾗｶｰﾝなので、足りないお金はあおじろさんから借ります。",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/k3PvszZ55Ok/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/k3PvszZ55Ok/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/k3PvszZ55Ok/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/k3PvszZ55Ok/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "草の人",
+        "tags": [
+          "Shadowverse",
+          "草の人",
+          "ゆっくり",
+          "ゆっくり実況プレイ",
+          "骸の王",
+          "ネクロマンサー",
+          "シャドーバース",
+          "シャドウバース"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "【シャドウバース】登録者の数だけパック開けますwwwww【ゆっくり実況プレイ】",
+          "description": "王のお触れ。\n骸の王「登録者10人につき1パック開けたら、骸の王効果で年内7万達成出来るアル。」\n\nShadowverse（シャドウバース）の骸の王デッキでバトルしてきました！\n\n◎twitter◎\n@glassmanbo2\n動画の更新とか日常つぶやいてます！フォローして下さい！\n\n◎生声チャンネル◎\nhttps://www.youtube.com/channel/UCfZoH-jHVsEDb7_hFevyKkg\nペルシコスとあおじろがお互い好きなゲーム生声で投稿してます。\nペルシコス(Bloodborne・シャドーバース・BF1など)\nあおじろ(CoD：IW・BF1など)\n\n\n\nデッキコード(ドバスポ)\nhttps://shadowverse-portal.com/deck/1.5.63E_G.63E_G.63E_G.63HPo.63HPo.63HPo.63FiQ.63FiQ.63FiQ.63HfQ.63HfQ.63K5g.63K5g.5_QqY.5_QqY.5_QqY.63Ezi.63Ezi.63Ezi.675ZG.675ZG.675ZG.63Kb4.63Kb4.673s2.673s2.678UI.678UI.5_TGo.5_TGo.63Kaw.63Kaw.63Kaw.63MII.63MII.677_2.677_2.63MIS.63MIS.63MIS\n\n◎キャンペーン内容◎\nこの動画編集中の登録者67832人から、12月29日のRise of Bahamut発売までの間に増えたチャンネル登録者10人につき1パックパックを開封します。(登録者上限なし)\nルピは使わずに、課金クリスタルのみで開封します。\n引越し云々で貯金ｽｯｶﾗｶｰﾝなので、足りないお金はあおじろさんから借ります。"
+        },
+        "defaultAudioLanguage": "ja"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

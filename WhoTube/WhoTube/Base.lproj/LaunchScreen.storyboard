@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,20 +13,22 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Dzd-ko-Mfu">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <rect key="frame" x="56.333333333333343" y="324.66666666666669" width="262.33333333333326" height="162.66666666666669"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Dzd-ko-Mfu" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Drw-rT-He3"/>
-                            <constraint firstItem="Dzd-ko-Mfu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="ONf-ic-zwq"/>
-                            <constraint firstItem="Dzd-ko-Mfu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="340" id="XEJ-h8-eS0"/>
+                            <constraint firstItem="Dzd-ko-Mfu" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.2" id="INJ-3Q-o8F"/>
+                            <constraint firstItem="Dzd-ko-Mfu" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Jac-Tu-VfW"/>
+                            <constraint firstItem="Dzd-ko-Mfu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Jx0-RZ-HT4"/>
+                            <constraint firstItem="Dzd-ko-Mfu" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.7" id="dxu-Qi-hpq"/>
                             <constraint firstItem="Dzd-ko-Mfu" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="stb-w7-CLF"/>
+                            <constraint firstItem="Dzd-ko-Mfu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xGU-7t-aPg"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -36,7 +38,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Logo" width="139" height="42"/>
+        <image name="Logo" width="92.666664123535156" height="28"/>
         <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

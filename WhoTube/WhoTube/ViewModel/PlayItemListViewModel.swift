@@ -17,12 +17,13 @@ class PlayItemListViewModel: BaseViewModel {
     var ChannelsListData: ChannelsList?
     let playItemList = BehaviorRelay<[PlayItem]>(value: AppCache.shared.retrieve(forType: .playItemList) ?? [])
     let title = BehaviorRelay<String>(value: "")
+    var apiProvider: ApiProvider = ApiProvider.shared
     
     func getInitData() {
         manageActivityIndicator.accept(true)
         
-        Observable.zip(ApiProvider.shared.observe(YoutubeDataService.getPlaylistItems(maxResults: InitItemCount, nextPageToken: nil)),
-                       ApiProvider.shared.observe(YoutubeDataService.getChannelInfo))
+        Observable.zip(apiProvider.observe(YoutubeDataService.getPlaylistItems(maxResults: InitItemCount, nextPageToken: nil)),
+                       apiProvider.observe(YoutubeDataService.getChannelInfo))
             .subscribe(onNext: { [weak self] event1, event2 in
                 self?.manageActivityIndicator.accept(false)
                 switch(event1, event2) {

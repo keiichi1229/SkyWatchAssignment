@@ -1,0 +1,43 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "JbS57_d8-VQkuVGOHJws04Wr02w",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "Dwd0a4gzeLraV6IsYqFUiKFxpa8",
+      "id": "UC9WMsQHOevJPa7tAIRAri7g",
+      "snippet": {
+        "title": "草の人",
+        "description": "このチャンネルは、「草の人」によるYouTubeチャンネルです。\n更新は不定期更新です。\n\n(現在、ゲーム内フレンドは上限枠などの都合により募集しておりません。ご理解ご協力お願いいたします。)\n\nお仕事の依頼などは下記メールアドレスより、StudioCoupまで宜しくお願い致します。\n",
+        "customUrl": "@kusanohito",
+        "publishedAt": "2013-04-18T13:21:16Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AOPolaS6EMnzlM5a9EDl3vJWSv94_PWrkX64LhPzfNpA=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AOPolaS6EMnzlM5a9EDl3vJWSv94_PWrkX64LhPzfNpA=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AOPolaS6EMnzlM5a9EDl3vJWSv94_PWrkX64LhPzfNpA=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "草の人",
+          "description": "このチャンネルは、「草の人」によるYouTubeチャンネルです。\n更新は不定期更新です。\n\n(現在、ゲーム内フレンドは上限枠などの都合により募集しておりません。ご理解ご協力お願いいたします。)\n\nお仕事の依頼などは下記メールアドレスより、StudioCoupまで宜しくお願い致します。\n"
+        },
+        "country": "JP"
+      }
+    }
+  ]
+}
