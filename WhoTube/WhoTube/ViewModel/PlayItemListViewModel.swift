@@ -33,12 +33,12 @@ class PlayItemListViewModel: BaseViewModel {
                     playListData.items.indices.forEach { index in
                         playListData.items[index].updateOwnerThumbnail(channelInfo.items.first?.snippet.thumbnails)
                     }
-                    
+
                     self?.playItemListData = playListData
                     self?.ChannelsListData = channelInfo
                     self?.playItemList.accept(playListData.items)
                     self?.title.accept(playListData.items.first?.snippet.channelTitle ?? "")
-                    
+
                     AppCache.shared.update(data: playListData.items, forType: .playItemList)
                 case (.error(let err), _),
                      (_, .error(let err)):
@@ -54,11 +54,11 @@ class PlayItemListViewModel: BaseViewModel {
     }
     
     func fetchNextPage() {
-        guard let token = playItemListData?.nextPageToken, !token.isEmpty else { return }
+       guard let token = playItemListData?.nextPageToken, !token.isEmpty else { return }
         
         manageActivityIndicator.accept(true)
         
-        ApiProvider.shared.request(YoutubeDataService.getPlaylistItems(maxResults: NextItemCount, nextPageToken: token))
+        apiProvider.request(YoutubeDataService.getPlaylistItems(maxResults: NextItemCount, nextPageToken: "token"))
             .subscribe(onSuccess: { [weak self] res in
                 self?.manageActivityIndicator.accept(false)
                 let playListData = GetPlayListItemsResponse(JSON(res)).data

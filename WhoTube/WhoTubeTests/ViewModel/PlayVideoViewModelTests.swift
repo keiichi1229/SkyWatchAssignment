@@ -32,24 +32,22 @@ class PlayVideoViewModelTests: XCTestCase {
         let videoDescriptionExpectation = expectation(description: "Video description should be updated")
         let observer = scheduler.createObserver(String.self)
         let mockApiProvider = MockApiProvider()
-        mockApiProvider.responseDic = MockApiProvider.readJSONFromFile(fileName: "video") ?? [:]
+        mockApiProvider.responseJSON = MockApiProvider.readJSONFromFile(fileName: "video")
         mockApiProvider.isRequestSuccess = true
         viewModel.apiProvider = mockApiProvider
         
-        viewModel.videoDescription
-            .bind(to: observer)
-            .disposed(by: disposeBag)
+        viewModel.videoDescription.skip(1)
+            .subscribe(onNext: { element in
+                observer.onNext(element)
+                videoDescriptionExpectation.fulfill()
+            }).disposed(by: disposeBag)
         
         viewModel.getVideoInfo(videoId: "k3PvszZ55Ok")
-        
-        DispatchQueue.main.async {
-            videoDescriptionExpectation.fulfill()
-        }
         
         waitForExpectations(timeout: 1) { _ in
             let emitted = observer.events.compactMap { $0.value.element }
             print("emitted = \(emitted)")
-            XCTAssertTrue(emitted[1].contains("王のお触れ。\n骸の王「登録者10人につき1パック開けたら、骸の王効果で年内7万達成出来るアル。」"))
+            XCTAssertTrue(emitted[0].contains("王のお触れ。\n骸の王「登録者10人につき1パック開けたら、骸の王効果で年内7万達成出来るアル。」"))
         }
     }
 }
