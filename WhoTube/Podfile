@@ -18,22 +18,11 @@ target 'WhoTube' do
   pod 'youtube-ios-player-helper'
   pod 'ActiveLabel'
   pod 'CryptoSwift'
-end
 
-target 'WhoTubeTests' do
+  target 'WhoTubeTests' do
   inherit! :complete
-  pod 'Moya/RxSwift'
-  pod 'SwiftyJSON'
-  pod 'SwiftJWT'
-  pod 'KeychainSwift'
-  pod 'RxRelay'
-  pod 'RxCocoa'
-  pod 'SnapKit'
-  pod 'Kingfisher'
-  pod 'lottie-ios'
-  pod 'youtube-ios-player-helper'
-  pod 'ActiveLabel'
-  pod 'CryptoSwift'
   pod 'RxTest'
   pod 'RxBlocking'
+ end
 end
+

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CF6E41654E79BB6B8720642 /* Pods_WhoTube_WhoTubeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CB7314CEFA6E29726CB81F /* Pods_WhoTube_WhoTubeTests.framework */; };
 		644FB57F2AA9C6BE0057010E /* PlayVideoViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644FB57E2AA9C6BE0057010E /* PlayVideoViewModelTests.swift */; };
 		648C10D12AA9A25100859FE2 /* PlayItemListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648C10D02AA9A25100859FE2 /* PlayItemListViewModelTests.swift */; };
 		648C10D42AA9A39000859FE2 /* MockApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648C10D32AA9A39000859FE2 /* MockApiProvider.swift */; };
@@ -53,7 +54,6 @@
 		64E0A5E92A9C92FF00E65DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E0A5E82A9C92FF00E65DC3 /* Assets.xcassets */; };
 		64E0A5EC2A9C92FF00E65DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E0A5EA2A9C92FF00E65DC3 /* LaunchScreen.storyboard */; };
 		8515F360B31B53BCAFED138E /* Pods_WhoTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5105690C7E6A438E671442 /* Pods_WhoTube.framework */; };
-		CD563E55D7B1F6715CCB0B33 /* libPods-WhoTubeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6628C1A8D6F9B58E0B1D37E /* libPods-WhoTubeTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42CB7314CEFA6E29726CB81F /* Pods_WhoTube_WhoTubeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhoTube_WhoTubeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4561D7F67519669E81FEFE7E /* Pods-WhoTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoTube.debug.xcconfig"; path = "Target Support Files/Pods-WhoTube/Pods-WhoTube.debug.xcconfig"; sourceTree = "<group>"; };
 		644FB57E2AA9C6BE0057010E /* PlayVideoViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideoViewModelTests.swift; sourceTree = "<group>"; };
 		6476D40C2AAA490E00845B7D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -118,10 +119,11 @@
 		64E0A5E82A9C92FF00E65DC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64E0A5EB2A9C92FF00E65DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64E0A5ED2A9C92FF00E65DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A14F6D9C45C7B914B9369ED /* Pods-WhoTube-WhoTubeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoTube-WhoTubeTests.debug.xcconfig"; path = "Target Support Files/Pods-WhoTube-WhoTubeTests/Pods-WhoTube-WhoTubeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		772F2DEFB09AEE7BB9A5205F /* Pods-WhoTubeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoTubeTests.debug.xcconfig"; path = "Target Support Files/Pods-WhoTubeTests/Pods-WhoTubeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8CE4DD98F507B7BB55FCD0C2 /* Pods-WhoTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoTube.release.xcconfig"; path = "Target Support Files/Pods-WhoTube/Pods-WhoTube.release.xcconfig"; sourceTree = "<group>"; };
 		9B5105690C7E6A438E671442 /* Pods_WhoTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhoTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6628C1A8D6F9B58E0B1D37E /* libPods-WhoTubeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhoTubeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D4D8446B8959A400DFB74D /* Pods-WhoTube-WhoTubeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoTube-WhoTubeTests.release.xcconfig"; path = "Target Support Files/Pods-WhoTube-WhoTubeTests/Pods-WhoTube-WhoTubeTests.release.xcconfig"; sourceTree = "<group>"; };
 		CCCFD52530292A169012E1EE /* Pods-WhoTubeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoTubeTests.release.xcconfig"; path = "Target Support Files/Pods-WhoTubeTests/Pods-WhoTubeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,7 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD563E55D7B1F6715CCB0B33 /* libPods-WhoTubeTests.a in Frameworks */,
+				4CF6E41654E79BB6B8720642 /* Pods_WhoTube_WhoTubeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +154,8 @@
 				8CE4DD98F507B7BB55FCD0C2 /* Pods-WhoTube.release.xcconfig */,
 				772F2DEFB09AEE7BB9A5205F /* Pods-WhoTubeTests.debug.xcconfig */,
 				CCCFD52530292A169012E1EE /* Pods-WhoTubeTests.release.xcconfig */,
+				6A14F6D9C45C7B914B9369ED /* Pods-WhoTube-WhoTubeTests.debug.xcconfig */,
+				C8D4D8446B8959A400DFB74D /* Pods-WhoTube-WhoTubeTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -338,7 +342,7 @@
 			children = (
 				6476D40C2AAA490E00845B7D /* XCTest.framework */,
 				9B5105690C7E6A438E671442 /* Pods_WhoTube.framework */,
-				B6628C1A8D6F9B58E0B1D37E /* libPods-WhoTubeTests.a */,
+				42CB7314CEFA6E29726CB81F /* Pods_WhoTube_WhoTubeTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -354,7 +358,7 @@
 				648C10C22AA9A0E900859FE2 /* Sources */,
 				648C10C32AA9A0E900859FE2 /* Frameworks */,
 				648C10C42AA9A0E900859FE2 /* Resources */,
-				87CBB5E95CEACFBD98E6C42D /* [CP] Copy Pods Resources */,
+				FC089A4EC6FF75B0ED419F45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -462,28 +466,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WhoTubeTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WhoTube-WhoTubeTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		87CBB5E95CEACFBD98E6C42D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhoTubeTests/Pods-WhoTubeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhoTubeTests/Pods-WhoTubeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhoTubeTests/Pods-WhoTubeTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B09FAC9C029E05775C99A4E5 /* [CP] Embed Pods Frameworks */ = {
@@ -523,6 +510,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC089A4EC6FF75B0ED419F45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhoTube-WhoTubeTests/Pods-WhoTube-WhoTubeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhoTube-WhoTubeTests/Pods-WhoTube-WhoTubeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhoTube-WhoTubeTests/Pods-WhoTube-WhoTubeTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -605,7 +609,7 @@
 /* Begin XCBuildConfiguration section */
 		648C10CC2AA9A0E900859FE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 772F2DEFB09AEE7BB9A5205F /* Pods-WhoTubeTests.debug.xcconfig */;
+			baseConfigurationReference = 6A14F6D9C45C7B914B9369ED /* Pods-WhoTube-WhoTubeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -628,7 +632,7 @@
 		};
 		648C10CD2AA9A0E900859FE2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCCFD52530292A169012E1EE /* Pods-WhoTubeTests.release.xcconfig */;
+			baseConfigurationReference = C8D4D8446B8959A400DFB74D /* Pods-WhoTube-WhoTubeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

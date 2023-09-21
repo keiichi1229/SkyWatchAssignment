@@ -32,8 +32,9 @@ class PlayItemListViewModelTests: XCTestCase {
     
     func testFetchNextPage() {
         // Mock the API response
-        mockApiProvider.responseDic = MockApiProvider.readJSONFromFile(fileName: "playList") ?? [:]
+        mockApiProvider.responseJSON = MockApiProvider.readJSONFromFile(fileName: "playList")
         mockApiProvider.isRequestSuccess = true
+        viewModel.apiProvider = mockApiProvider
 
         // Create an observer to record emitted events
         let observer = scheduler.createObserver([PlayItem].self)

@@ -15,8 +15,8 @@ import Alamofire
 class MockApiProvider: ApiProvider {
     override init() {}
     var callRequest = false
-    var responseDic: [String: Any] = [:]
     var responses: [[String: Any]] = []
+    var responseJSON = JSON()
     var responseError = NSError(domain: "", code: 401, userInfo: [ NSLocalizedDescriptionKey: "Error Test"])
     var isRequestSuccess: Bool = true
     var requestParameters: [String : Any] = [:]
@@ -30,9 +30,9 @@ class MockApiProvider: ApiProvider {
                 let dict = responses.remove(at: 0)
                 return Single.just(dict)
             }
-            return Single.just(responseDic)
+            return Single.just(responseJSON)
         }
-        return Single.error(responseDic.count > 1 ? MoyaError.jsonMapping(Response(statusCode: 200, data: try! JSONSerialization.data(withJSONObject: responseDic, options: []))) : responseError)
+        return Single.error(responseJSON.count > 1 ? MoyaError.jsonMapping(Response(statusCode: 200, data: try! responseJSON.rawData())) : responseError)
     }
     
     override func observe<Request>(_ request: Request) -> Observable<Event<Any>> where Request : TargetType {
@@ -49,20 +49,18 @@ class MockApiProvider: ApiProvider {
         }
     }
     
-    static func readJSONFromFile(fileName: String) -> [String: Any]? {
+    static func readJSONFromFile(fileName: String) -> JSON {
         let bundle = Bundle(for: MockApiProvider.self)
         if let url = bundle.url(forResource: fileName, withExtension: "json") {
             do {
                 let data = try Data(contentsOf: url)
-                let json = try JSONSerialization.jsonObject(with: data, options: [])
-                if let object = json as? [String: Any] {
-                    return object
-                }
+                let json = try JSON(data: data)
+                return json
             } catch {
                 print("Error: \(error)")
+                return JSON()
             }
         }
-        return nil
+        return JSON()
     }
-
 }
